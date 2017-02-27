@@ -14,7 +14,7 @@ X_test = data_set[2500:]
 
 Y_train = np.tile(np.repeat(np.arange(10),5),50)
 
-'''
+
 classifier = neighbors.KNeighborsClassifier(n_neighbors=3)
 classifier.fit(X_train,Y_train)
 
@@ -23,7 +23,7 @@ print(predicted)
 
 cv2.imshow(str(predicted),X_test[20].reshape(20,20))
 cv2.waitKey()
-'''
+
 
 
 
